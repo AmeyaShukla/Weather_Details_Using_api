@@ -1,1 +1,13 @@
 
+#main
+{
+   padding:0 0 0 0;
+}
+.weather_detials
+{
+
+    font-size: 30px;
+    color: white;text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
