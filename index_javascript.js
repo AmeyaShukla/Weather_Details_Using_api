@@ -103,7 +103,7 @@ function Get_Weather_Detials(lat,lon)
                 else
                 {
                     var image_data="images/"+current_id_start+".jpg";
-                   
+
 
                 }
             }else
@@ -111,8 +111,8 @@ function Get_Weather_Detials(lat,lon)
                 var image_data="images/"+current_id_start+".jpg";
 
             }
-            var show="<div class='container-fluid' style='position: relative; background: url("+image_data+");background-repeat:no-repeat;background-size:cover; width:100%; height:50% '>"+
-               " <div class='col-sm-3 weather_detials'>"+current_city+" </div> <div class='col-sm-2 weather_detials'>"+current_temp+"  &#8451"+" </div> <div class='col-sm-2 weather_detials'>"+current_wh+"</div></div>";
+            var show="<div class='container-fluid' style='position: relative; background: url("+image_data+");background-repeat:no-repeat;background-size:cover; width:100%; height:100% '>"+
+               " <div id='details' style='position: absolute;top:40%;left:20%; ' class='col-sm-3 weather_detials'>"+current_city+" </div> <div style='position: absolute;top:40%;left:40%' class='col-sm-2 weather_detials'>"+current_temp+"  &#8451"+" </div> <div style='position: absolute;top:40%;left:55%' class='col-sm-2 weather_detials'>"+current_wh+"</div></div>";
 
 
 
